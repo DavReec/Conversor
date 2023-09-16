@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Kanit:ital,wght@0,500;0,600;1,500&family=Open+Sans&family=Roboto:ital,wght@1,100&family=Work+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+body{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: bold;
+    background-color: #42DB95;
+    display: flex;
+}
+
+#cabecera{
+    margin-top: 10%;
+    margin-left: 42%;
+    background-color: #fff;
+    width: 17%;
+    height: 20%;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.3);
+    border: 2px solid black;
+    font-size: 1.5vh;
+}
+#contenedor{
+    position: absolute;
+    display: flex;
+    margin-top: 17%;
+    margin-left: 32%;
+    border-radius: 4%;
+    width: 35%;
+    height: 350px;
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.6), 0 10px 10px rgba(0,0,0,0.6);
+    border: 2px solid black;
+}
+#monto-factor{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 0;
+    width: 28%;
+    height: 80%;
+    display: flexbox;
+    align-items: center;
+}
+#textoMonto{
+    margin-top: 20%;
+}
+#monto{
+    margin-top: 0.5%;
+}
+
+#factor{
+    margin-top: 0.5%;
+}
+
+#monedas-cambio{
+    margin-top: 5%;
+    width: 35%;
+    height: 80%;
+    padding-left: 10%;
+}
+
+#textoMonedas{
+    margin-top: 16%;
+}
+
+#caja-boton{
+    margin-top: 4%;
+    width: 20%;
+    height: 80%;
+}
+
+#btnConvertir:hover{
+    background-color: #47eaa0;
+    transform: scale(1.03);
+}
+
+#btnConvertir{
+    width: 75%;
+    height: 15%;
+    margin-top: 55%;
+    font-weight: bold;
+    color: #fff;
+    background-color: #42DB95;
+    border: 2px solid #236e4c;
+    border-radius: 6%;
+    font-size: 90%;
+}
+
+#btnConvertir:active{
+    background-color: #319a6b;
+    transform: scale(0.95);
+
+}
+
+.inp{
+    height: 10%;
+    border: 2px solid black;
+}
+
+#contenedorHistorial{
+    position: absolute;
+    width: 22%;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5%;
+    border: 2px solid black;
+    margin-left: 71%;
+    margin-top: 17%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.6), 0 10px 10px rgba(0,0,0,0.6);
+}
+h2{
+    text-align: center;
+}
+
+#conversion{
+    width: 500px;
+    height: 500px;
+    padding: 4%;
+}

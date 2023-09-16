@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="cabecera">
+        <h1>Conversor de divisas</h1>
+    </div>
+    <div id="contenedor">
+        <div id="monto-factor">
+            <p id="textoMonto">Monto</p>
+            <input type="number" class="inp" id = "monto" placeholder="Ingrese el monto">
+            <p>Cotización: </p>
+            <p style="font-weight: 200;" id = "textoCotizacion"></p>
+        </div>
+        <div id="monedas-cambio">
+            <p id = "textoMonedas">Divisas</p>
+            <select class="inp" id = "convert-from-select" name="convert-from-select">
+            </select>
+            <p style="font-size: 13px;">a</p>
+            <select class="inp" id = "convert-to-select" name="convert-to-select">
+            </select>
+            <p>Cambio</p>
+            <span class="inp" type="number" id="conversion" >Resultado</span>
+        </div>
+        <div id="caja-boton">
+            <button id="btnConvertir">Convertir</button>
+        </div>
+    </div>
+    <div id="contenedorHistorial">
+        <h2>Historial</h2>
+        <ul>
+            <li>1USD = 7000PYG</li>
+        </ul>
+    </div>
+</body>
+</html>
