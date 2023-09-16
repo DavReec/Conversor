@@ -1,117 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Kanit:ital,wght@0,500;0,600;1,500&family=Open+Sans&family=Roboto:ital,wght@1,100&family=Work+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-body{
-    font-family: 'Inclusive Sans', sans-serif;
-    font-weight: bold;
-    background-color: #42DB95;
+main{
     display: flex;
-}
-
-#cabecera{
-    margin-top: 10%;
-    margin-left: 42%;
-    background-color: #fff;
-    width: 17%;
-    height: 20%;
-    text-align: center;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.3);
-    border: 2px solid black;
-    font-size: 1.5vh;
-}
-#contenedor{
-    position: absolute;
-    display: flex;
-    margin-top: 17%;
-    margin-left: 32%;
-    border-radius: 4%;
-    width: 35%;
-    height: 350px;
-    background-color: #fff;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.6), 0 10px 10px rgba(0,0,0,0.6);
-    border: 2px solid black;
-}
-#monto-factor{
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 0;
-    width: 28%;
-    height: 80%;
-    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+   background-image: url(../img/active-investing.jpg);
 }
-#textoMonto{
-    margin-top: 20%;
-}
-#monto{
-    margin-top: 0.5%;
+.cal-hist-content{
+
+    padding: 2em;
+    border-radius: 2em;
+    background-color: #3bc4f1ed;
+    box-shadow: 0 0 10px 15px #06004074;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
 }
 
-#factor{
-    margin-top: 0.5%;
+#calculator{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
-#monedas-cambio{
-    margin-top: 5%;
-    width: 35%;
-    height: 80%;
-    padding-left: 10%;
+.label-style{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
 }
 
-#textoMonedas{
-    margin-top: 16%;
+.input{
+    width: 16em;
+    height: 1em;
+    padding: 0.5em;
+    box-shadow: 0 0 1px 1px #d7d7d7c9;
+    box-sizing: content-box;
+    border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    -ms-border-radius: 0.4em;
+    -o-border-radius: 0.4em;
+    background-color: white;
 }
 
-#caja-boton{
-    margin-top: 4%;
-    width: 20%;
-    height: 80%;
+#result-area{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
 }
 
-#btnConvertir:hover{
-    background-color: #47eaa0;
-    transform: scale(1.03);
+#convert-button{
+    margin-top: 20px;
+    background-color: #00e317d8;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 4px 2px #03ff8ad0;
 }
 
-#btnConvertir{
-    width: 75%;
-    height: 15%;
-    margin-top: 55%;
-    font-weight: bold;
-    color: #fff;
-    background-color: #42DB95;
-    border: 2px solid #236e4c;
-    border-radius: 6%;
-    font-size: 90%;
+#convert-button:active {
+    box-shadow: 0px 0px 13px 3px #008d4bcc;
 }
 
-#btnConvertir:active{
-    background-color: #319a6b;
-    transform: scale(0.95);
-
-}
-
-.inp{
-    height: 10%;
-    border: 2px solid black;
-}
-
-#contenedorHistorial{
-    position: absolute;
-    width: 22%;
-    height: 350px;
-    background-color: #fff;
-    border-radius: 5%;
-    border: 2px solid black;
-    margin-left: 71%;
-    margin-top: 17%;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.6), 0 10px 10px rgba(0,0,0,0.6);
-}
-h2{
-    text-align: center;
-}
-
-#conversion{
-    width: 500px;
-    height: 500px;
-    padding: 4%;
-}
+select {
+    cursor: pointer;
+  }
